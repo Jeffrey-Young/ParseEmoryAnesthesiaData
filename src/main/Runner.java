@@ -55,7 +55,7 @@ public class Runner {
       reader.close();
       //now compute the normalized weighted sum
       for (Subject s : subjects){
-        s.setNormalizedTotalKetamineIsoflurane((s.getIsoflurane() / 1.733333333333333) + (s.getKetamine() / 2.666666666667));
+        s.setNormalizedTotalKetamineIsoflurane((s.getIsoflurane() / 5.57613333333333) + (s.getKetamine() / 10));
       }
       // write out data
       FileWriter output = new FileWriter("data/EmoryAnesthesiaData.csv");
